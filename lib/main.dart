@@ -1,3 +1,4 @@
+import 'package:channabsheet/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:gsheets/gsheets.dart';
 
@@ -37,7 +38,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+
+    );
   }
 }
 
